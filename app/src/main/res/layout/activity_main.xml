@@ -123,7 +123,7 @@
         android:layout_width="363dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="@color/primary"
         android:hint="Введите вашу фамилию"
@@ -132,7 +132,7 @@
         android:textColorHint="@color/primary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -140,7 +140,7 @@
         android:layout_width="363dp"
         android:layout_height="40dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="376dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="@color/primary"
         android:hint="Введите ваш контактный номер"
@@ -149,25 +149,26 @@
         android:textColorHint="@color/primary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name2"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/button"
-        android:onClick="onClickStepsActivity"
         android:layout_width="357dp"
         android:layout_height="44dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="524dp"
+        android:layout_marginTop="76dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/test"
         android:backgroundTint="#b23c9b"
+        android:onClick="onClickStepsActivity"
         android:text="Зарегестрироваться"
         android:textAllCaps="false"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name3"
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <CheckBox
@@ -175,12 +176,12 @@
         android:layout_width="351dp"
         android:layout_height="46dp"
         android:layout_marginStart="28dp"
+        android:layout_marginTop="37dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="88dp"
         android:text="Согласен(-а) с условиями использования и политикой конфидециальности"
         android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
         tools:ignore="TouchTargetSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
