@@ -101,12 +101,14 @@
         app:srcCompat="@drawable/rectangle_3" />
 
     <Button
+        android:onClick="onClickStepsActivity"
         android:id="@+id/button2"
         android:layout_width="97dp"
         android:layout_height="49dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
-        android:text="Button"
+        android:text="Контакты"
+        android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
@@ -116,7 +118,8 @@
         android:layout_height="49dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="204dp"
-        android:text="Button"
+        android:text="Актив"
+        android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
@@ -126,7 +129,8 @@
         android:layout_height="49dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="260dp"
-        android:text="Button"
+        android:text="Профиль"
+        android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 

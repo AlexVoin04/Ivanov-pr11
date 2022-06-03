@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android-Prodject/Ivanov-pr11/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android-Prodject/Ivanov-pr11/app/src/main/res/drawable/test.xml" value="0.209" />
+        <entry key="..\:/Android-Prodject/Ivanov-pr11/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Android-Prodject/Ivanov-pr11/app/src/main/res/layout/activity_main2.xml" value="0.33" />
-        <entry key="..\:/Android-Prodject/Ivanov-pr11/app/src/main/res/layout/activity_main3.xml" value="0.2" />
+        <entry key="..\:/Android-Prodject/Ivanov-pr11/app/src/main/res/layout/activity_main3.xml" value="0.1" />
+        <entry key="..\:/Android-Prodject/Ivanov-pr11/app/src/main/res/layout/spisok.xml" value="0.1" />
         <entry key="..\:/Users/mobil/AndroidStudioProjects/Ivanovpr112/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/mobil/AndroidStudioProjects/Ivanovpr112/app/src/main/res/layout/activity_main2.xml" value="0.25" />
       </map>
